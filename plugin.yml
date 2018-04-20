@@ -1,0 +1,28 @@
+name: PixelgamesNoTP
+main: Authors\PixelgamesNoTP\PixelgamesNoTP
+version: 2.2#
+api: [3.0.0-ALPHA11]
+load: POSTWORLD
+author: Awzaw, iStrafeNubzHDyt
+website: https://github.com/awzaw
+
+commands:
+ notp:
+  description: "Hauptbefehl von PixelgamesNoTP, schaltet den Modus ein oder aus"
+  usage: "/notp toggle"
+  permission: pgnotp.toggle
+
+permissions:
+  pgnotp:
+    description: "Erlaubt die Ausführung aller Funktionen in PixelgamesNoTP"
+    default: op
+
+    children:
+      pgnotp.toggle:
+        description: "Erlaubt dem Spieler, den NoTP-Modus umzuschalten"
+        default: false
+
+        children:
+          pgnotp.toggle.self:
+            description: "Erlaubt dem Spieler, den NoTP-Modus für sich selbst umzuschalten"
+            default: false

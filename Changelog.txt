@@ -1,0 +1,18 @@
+Changelog PixelgamesNoTP:
+
+v0.1-release: Plugin released als Kopie
+v1.0#: onLoad und onDisable hinzugefügt, alles übersetzt (Main und plugin.yml), Test: Fehler bei Befehl über Console
+v1.1#-beta: kleine Fehlerkorrektur, als Test für die Console Änderung vorgenommen (INSTABIL?)
+v1.2#-beta: Änderung zum obigen Ziel mit return false-Funktion (INSTABIL?)
+v1.2.1#-beta: vorherige Version rückgängig gemacht
+v1.3#: Allgemeines API-Update auf 3.0.0-ALPHA9
+v1.4#: Als Test zur Behebung der Consolen-Ausführung Funktion mit elseif probiert, andere Änderungen
+v1.5#: Zur Lösung des obigen Problems alles bei onCommand überarbeitet, neue Struktur mit case
+v1.5.1#: return true hinzugefügt
+v1.5.2#: elseif statt if (2x)
+v1.5.2#: instanceof Player oben hinzugefügt bei if
+v2.0#: Commandstrukur geändert (man braucht jetzt args), damit auch info und help hinzugefügt,  alles überarbeitet
+v2.0.1#: return true hinzugefügt für onCommand (wegen Console-Error), Versionsnummer in Info
+v2.1#: Allgemeines API-Update auf 3.0.0-ALPHA10
+v2.2#: Allgemeines API-Update auf 3.0.0-ALPHA11
+v
