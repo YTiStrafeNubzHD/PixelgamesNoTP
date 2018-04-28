@@ -1,7 +1,7 @@
 name: PixelgamesNoTP
 main: Authors\PixelgamesNoTP\PixelgamesNoTP
-version: 2.2#
-api: [3.0.0-ALPHA11]
+version: 2.3#
+api: [3.0.0-ALPHA12]
 load: POSTWORLD
 author: Awzaw, iStrafeNubzHDyt
 website: https://github.com/awzaw
