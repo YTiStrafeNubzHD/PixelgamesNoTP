@@ -78,8 +78,8 @@ class PixelgamesNoTP extends PluginBase implements Listener {
                         $issuer->sendMessage("§ePlugin von Awzaw, iStrafeNubzHDyt");
                         $issuer->sendMessage("§bName: PixelgamesNoTP");
                         $issuer->sendMessage("§bOriginal: NoTP");
-                        $issuer->sendMessage("§bVersion: 2.3#");
-                        $issuer->sendMessage("§bFür PocketMine-API: 3.0.0-ALPHA12");
+                        $issuer->sendMessage("§bVersion: 2.4#");
+                        $issuer->sendMessage("§bFür PocketMine-API: 3.0.0-ALPHA12, 3.0.0, 4.0.0");
                         $issuer->sendMessage("§6Permissions: pgnotp, pgnotp.toggle, pgnotp.toggle.self");
                         $issuer->sendMessage("§eSpeziell für PIXELGAMES entwickelt");
                         $issuer->sendMessage("§e-----------------------------");
